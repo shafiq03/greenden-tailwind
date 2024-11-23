@@ -21,7 +21,7 @@ var productList = productContainer.querySelectorAll("div")
 
             for (count = 0; count < productList.length; count = count + 1) {
 
-                // var productname = productList[count].querySelector("h1").textContent
+                var productname = productList[count].querySelector("h1").textContent
 
                 if(productname.toUpperCase().indexOf(enteredvalue)<0){
                     productList[count].style.display="none"
