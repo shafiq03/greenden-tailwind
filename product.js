@@ -17,7 +17,7 @@ var productContainer = document.getElementById("productContainer")
 var productList = productContainer.querySelectorAll("div")
 
         search.addEventListener("keyup", function () {
-            var enteredvalue = event.target.value.toUpperCase()  //this
+            var enteredvalue = event.target.value.toUpperCase()
 
             for (count = 0; count < productList.length; count = count + 1) {
 
